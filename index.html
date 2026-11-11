@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#203a30">
+  <meta name="description" content="Дони Шеф — чайхана восточной кухни в Уфе на улице Ленина, 30. Меню и цены чайханы, доставка по телефону +7 919 154-52-32, контакты и маршрут.">
+  <meta property="og:title" content="Дони Шеф — восточная кухня в Уфе">
+  <meta property="og:description" content="Меню чайханы, доставка и тёплые встречи на Ленина, 30.">
+  <meta property="og:type" content="website">
+  <title>Дони Шеф — чайхана на Ленина, 30 · Уфа</title>
+  <link rel="icon" href="assets/images/logo.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/images/plov.webp" fetchpriority="high">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="menu-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <svg class="svg-definitions" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-diagonal" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="m8 3 3 5-3 3a17 17 0 0 0 5 5l3-3 5 3c-1 7-7 5-12 0S2 4 8 3Z"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 40 40"><path d="m20 2 5 11 12-1-8 9 5 12-12-5-10 10 1-14L2 18l12-4Z"/></symbol>
+    <symbol id="i-flower" viewBox="0 0 100 100"><path d="M50 7C62 26 65 29 87 27c-2 22 1 25 20 37-22 4-26 8-30 30-15-16-20-17-40-9 2-22-1-26-20-37 20-9 23-13 23-35Z"/><circle cx="50" cy="50" r="13"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#home" aria-label="Дони Шеф — на главную">
+        <img src="assets/images/logo.webp" width="56" height="56" alt="Оригинальный узорный логотип ДониШеф">
+        <span class="brand-words"><span class="brand-name">дони шеф</span><span class="brand-caption">ЧАЙХАНА ВОСТОЧНОЙ КУХНИ</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Основная навигация">
+        <a href="#menu">Меню</a><a href="#about">О чайхане</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a>
+      </nav>
+      <a class="header-order" href="tel:+79191545232">Заказать <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Открыть навигацию"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Мобильная навигация" hidden>
+      <a href="#menu">Меню</a><a href="#about">О чайхане</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a>
+      <a href="tel:+79191545232">+7 919 154-52-32</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-photo" aria-hidden="true">
+        <img class="hero-slide is-active" src="assets/images/plov.webp" width="720" height="1280" alt="Плов с мясом на расписном блюде в чайхане ДониШеф" fetchpriority="high">
+        <img class="hero-slide" src="assets/images/shashlik.webp" width="720" height="820" alt="Шашлык с овощами и соусом в ДониШеф" fetchpriority="low" decoding="async">
+        <img class="hero-slide" src="assets/images/chakhokhbili.webp" width="720" height="1280" alt="Чахохбили с картофельным пюре в ДониШеф" fetchpriority="low" decoding="async">
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow"><span class="small-star">✧</span> ЧАЙХАНА «ДОНИ ШЕФ» · УФА</p>
+        <h1 id="hero-title">Восток<br><em>на вкус.</em></h1>
+        <p class="hero-description">Самаркандский плов, сочный шашлык<br class="desktop-break"> и тёплые встречи за одним столом.</p>
+        <div class="hero-actions"><a class="button button-cream" href="#menu">Смотреть меню <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a><a class="button button-outline-light" href="#delivery">Заказать доставку</a></div>
+        <a class="hero-address" href="#contacts"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>Уфа, улица Ленина, 30</span><svg class="icon small" aria-hidden="true"><use href="#i-diagonal"/></svg></a>
+      </div>
+      <div class="halal-seal" aria-label="Только халяльная еда"><span>С ВОСТОЧНЫМ</span><strong>Халяль</strong><span>ГОСТЕПРИИМСТВОМ</span></div>
+      <div class="hero-controls" id="hero-controls" role="group" aria-label="Фотографии на главном экране" hidden>
+        <button class="hero-dot" type="button" aria-label="Показать фото плова" aria-pressed="true" data-slide="0"><span></span></button>
+        <button class="hero-dot" type="button" aria-label="Показать фото шашлыка" aria-pressed="false" data-slide="1"><span></span></button>
+        <button class="hero-dot" type="button" aria-label="Показать фото чахохбили" aria-pressed="false" data-slide="2"><span></span></button>
+        <button class="hero-pause" id="hero-pause" type="button" aria-label="Остановить смену фотографий"><span aria-hidden="true">Ⅱ</span></button>
+      </div>
+      <a href="#menu" class="hero-scroll" aria-label="Перейти к меню"><span>К СТОЛУ</span><span>↓</span></a>
+      <svg class="hero-edge" viewBox="0 0 1440 48" preserveAspectRatio="none" aria-hidden="true"><path d="M0 29C133 5 180 44 320 27s169-2 289 8 214-28 350-13 284 18 481-8v34H0Z"/></svg>
+    </section>
+
+    <div class="welcome-strip container" aria-label="О кухне"><span>Самаркандский плов</span><span aria-hidden="true">✧</span><span>Блюда на гриле</span><span aria-hidden="true">✧</span><span>Восточное гостеприимство</span><span aria-hidden="true">✧</span><span>Только халяль</span></div>
+
+    <section class="menu-section section-pad container" id="menu" aria-labelledby="menu-heading">
+      <div class="section-heading">
+        <div><p class="eyebrow">01 / МЕНЮ ЧАЙХАНЫ</p><h2 id="menu-heading">Выбирайте <em>по душе.</em></h2></div>
+        <div class="section-intro"><p>Плов из казана, горячие блюда и шашлык.<br>Всё, ради чего хочется собраться за столом.</p><button class="text-link" id="open-menu" type="button">Меню в оригинале <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></button></div>
+      </div>
+      <div class="menu-toolbar">
+        <div id="category-filters" class="category-filters" role="group" aria-label="Категории меню"></div>
+        <label class="menu-search"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><input id="menu-search" type="search" placeholder="Найти блюдо" aria-label="Поиск по всему меню" autocomplete="off"><kbd>/</kbd></label>
+      </div>
+      <div class="menu-layout">
+        <figure class="menu-feature"><img id="menu-feature-image" src="assets/images/plov-detail.webp" width="720" height="1000" loading="lazy" alt="Самаркандский плов из публикации ДониШеф"><figcaption><span>С ВОСТОЧНЫМ КОЛОРИТОМ</span><span>Щедро. По-домашнему.</span></figcaption><svg class="feature-star" viewBox="0 0 40 40" aria-hidden="true"><use href="#i-star"/></svg></figure>
+        <div class="menu-results"><div class="results-heading"><h3 id="category-title">Фирменные блюда</h3><p id="result-count" role="status" aria-live="polite" aria-atomic="true"></p></div><div id="menu-items" class="menu-items"></div><div id="empty-state" class="empty-state" hidden><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><h3>Такого блюда не нашлось</h3><p>Попробуйте другое название или посмотрите всё меню.</p><button id="reset-search" class="button button-green" type="button">Показать всё меню</button></div></div>
+      </div>
+      <p class="menu-source-note">Цены в чайхане · <a href="https://t.me/donishef_ufa/847" target="_blank" rel="noopener noreferrer">меню от 10.09.2026</a> · <a href="https://t.me/donishef_ufa/891" target="_blank" rel="noopener noreferrer">дополнение от 28.10.2026</a>. Наличие и актуальные цены можно уточнить <a href="tel:+79191545232">по телефону</a>.</p>
+      <noscript><p class="noscript-note">Для поиска и фильтров включите JavaScript. <a href="assets/menu/page-2.jpg">Шашлыки</a> · <a href="assets/menu/page-3.jpg">Первые блюда</a> · <a href="assets/menu/page-4.jpg">Вторые блюда</a> · <a href="assets/menu/page-5.jpg">Фирменные блюда</a> · <a href="assets/menu/page-6.jpg">Гарниры и чай</a>.</p></noscript>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-heading">
+      <div class="about-layout container section-pad">
+        <div class="about-photos"><figure class="about-main-photo"><img src="assets/images/interior.webp" width="720" height="1000" loading="lazy" alt="Уютный зал ДониШеф с восточными узорами и мягкими диванами"></figure><figure class="about-small-photo"><img src="assets/images/kazan.webp" width="720" height="900" loading="lazy" alt="Самаркандский плов в казане на кухне ДониШеф"></figure><span class="photo-note">Восток — в деталях</span></div>
+        <div class="about-copy"><p class="eyebrow">02 / НАША ЧАЙХАНА</p><h2 id="about-heading">Хорошо там,<br>где <em>ждут к столу.</em></h2><p class="about-lead">Восточная кухня и гостеприимство<br class="desktop-break"> в самом центре Уфы.</p><p>В «ДониШеф» готовят самаркандский плов, шашлыки и другие блюда восточной кухни. Здесь встречаются с близкими, обедают и собираются за горячим чаем.</p><p>Заглядывайте на Ленина, 30.<br>А если хочется остаться дома — закажите доставку.</p><a class="text-link" href="https://t.me/donishef_ufa" target="_blank" rel="noopener noreferrer">Жизнь чайханы в Telegram <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></a><div class="about-signature" aria-hidden="true">С теплом, Дони Шеф <span>✧</span></div></div>
+      </div>
+      <div class="gallery container" aria-label="Фотографии чайханы">
+        <button class="gallery-photo gallery-photo-food" type="button" data-gallery="0" aria-label="Увеличить фотографию шашлыка"><img src="assets/images/shashlik.webp" width="720" height="820" loading="lazy" alt="Шашлык на белом блюде с овощами и соусом"><span>С огня — к столу <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></span></button>
+        <button class="gallery-photo" type="button" data-gallery="1" aria-label="Увеличить фотографию зала"><img src="assets/images/hall.webp" width="720" height="950" loading="lazy" alt="Зал чайханы с расписными стенами и мягкими диванами"><span>Место для встреч <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></span></button>
+        <button class="gallery-photo" type="button" data-gallery="2" aria-label="Увеличить фотографию плова в казане"><img src="assets/images/kazan.webp" width="720" height="900" loading="lazy" alt="Плов в большом казане"><span>По-восточному щедро <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></span></button>
+      </div>
+    </section>
+
+    <section class="delivery-section" id="delivery" aria-labelledby="delivery-heading">
+      <div class="delivery-layout container"><div class="delivery-copy"><p class="eyebrow">03 / ДОСТАВКА</p><h2 id="delivery-heading">Накроем стол.<br><em>Даже у вас дома.</em></h2><p>Любимые блюда «ДониШеф» можно заказать<br class="desktop-break"> с доставкой. Позвоните — и выберите своё.</p><a class="button button-terra" href="tel:+79191545232">Заказать по телефону <svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></a><a class="delivery-phone" href="tel:+79191545232">+7 919 154-52-32</a><p class="delivery-note">Стоимость, время и зону доставки уточняйте при заказе.</p></div><div class="delivery-art"><img src="assets/images/plov.webp" width="720" height="1280" loading="lazy" alt="Блюдо плова из чайханы ДониШеф"><div class="delivery-stamp" aria-hidden="true"><span>ВАШ ЛЮБИМЫЙ</span><strong>Восток</strong><span>У ВАС ДОМА</span></div><svg class="delivery-star" viewBox="0 0 40 40" aria-hidden="true"><use href="#i-star"/></svg></div></div>
+    </section>
+
+    <section class="reviews-section section-pad" id="reviews" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="reviews-heading"><div><p class="eyebrow">ОТЗЫВЫ ГОСТЕЙ</p><h2 id="reviews-heading">Гости <em>о нас.</em></h2></div><p class="reviews-intro">Короткие фрагменты отзывов<br>о чайхане на Ленина, 30.</p></div>
+        <div class="reviews-grid">
+          <figure class="review-card"><span class="review-mark" aria-hidden="true">“</span><blockquote><p>Бываем здесь нередко, всегда очень вкусно!</p></blockquote><figcaption><span class="review-author">Юлия У.</span><span class="review-platform">Яндекс Карты</span></figcaption></figure>
+          <figure class="review-card"><span class="review-mark" aria-hidden="true">“</span><blockquote><p>Вкусный лёгкий плов, быстрое обслуживание, вежливый персонал.</p></blockquote><figcaption><span class="review-author">Константин Л.</span><span class="review-platform">Яндекс Карты</span></figcaption></figure>
+          <figure class="review-card"><span class="review-mark" aria-hidden="true">“</span><blockquote><p>Очень понравился плов.</p></blockquote><figcaption><span class="review-author">Николай Кулагин</span><span class="review-platform">Яндекс Карты</span></figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts-section container section-pad" id="contacts" aria-labelledby="contacts-heading">
+      <div class="contacts-title"><p class="eyebrow">04 / ЖДЁМ В ГОСТИ</p><h2 id="contacts-heading">Встретимся<br><em>на Ленина, 30.</em></h2><p>Приходите за вкусом Востока.<br>Семьёй, с друзьями или просто на обед.</p></div>
+      <div class="contact-details"><div class="contact-row"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><div><span class="detail-label">НАШ АДРЕС</span><p>Уфа, улица Ленина, 30</p><a class="text-link" href="https://yandex.ru/maps/?rtext=~%D0%A3%D1%84%D0%B0%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0%2C%2030&amp;rtt=auto" target="_blank" rel="noopener noreferrer">Построить маршрут <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></a></div></div><div class="contact-row"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg><div><span class="detail-label">ЗАКАЗЫ И ВОПРОСЫ</span><a class="contact-phone" href="tel:+79191545232">+7 919 154-52-32</a></div></div><div class="contact-social"><span>Новости и фотографии чайханы</span><a class="social-link" href="https://t.me/donishef_ufa" target="_blank" rel="noopener noreferrer">Telegram <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></a></div></div>
+      <div class="contacts-map">
+        <iframe src="https://yandex.ru/map-widget/v1/?oid=108522722763&amp;ol=biz&amp;z=17" width="1200" height="400" title="ДониШеф на карте — Уфа, улица Ленина, 30" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        <div class="map-caption"><span>ДониШеф · Уфа, Ленина, 30</span><a href="https://yandex.ru/maps/org/donishef/108522722763/" target="_blank" rel="noopener noreferrer">Открыть в Яндекс Картах <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top container"><a class="brand footer-brand" href="#home" aria-label="Дони Шеф — на главную"><img src="assets/images/logo.webp" width="56" height="56" alt=""><span class="brand-words"><span class="brand-name">дони шеф</span><span class="brand-caption">ЧАЙХАНА ВОСТОЧНОЙ КУХНИ</span></span></a><p>Восток на вкус.<br><span>Уфа, Ленина, 30</span></p><a class="back-top" href="#home">Наверх <span aria-hidden="true">↑</span></a></div><div class="footer-bottom container"><span>Дони Шеф · Чайхана восточной кухни</span><a href="tel:+79191545232">+7 919 154-52-32</a></div></footer>
+
+  <nav class="mobile-bottom" aria-label="Быстрые действия"><a href="#menu"><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg>Меню</a><a href="tel:+79191545232"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg>Заказать доставку</a></nav>
+
+  <dialog id="image-dialog" class="image-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><p class="eyebrow" id="dialog-eyebrow">МЕНЮ ЧАЙХАНЫ</p><h2 id="dialog-title">Оригинальное меню</h2></div><button id="close-dialog" class="icon-button" type="button" aria-label="Закрыть просмотр"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div><div class="dialog-toolbar"><div class="dialog-pagination"><button class="icon-button" id="prev-image" type="button" aria-label="Предыдущая страница">←</button><span id="image-counter" aria-live="polite"></span><button class="icon-button" id="next-image" type="button" aria-label="Следующая страница">→</button></div><button id="zoom-image" class="zoom-button" type="button" aria-pressed="false">Увеличить +</button></div><div class="dialog-image-area" id="dialog-image-area"><img id="dialog-image" alt=""></div><p class="dialog-caption" id="dialog-caption"></p><a id="dialog-source" class="text-link dialog-source" target="_blank" rel="noopener noreferrer">Публикация чайханы <svg class="icon" aria-hidden="true"><use href="#i-diagonal"/></svg></a></dialog>
+</body>
+</html>

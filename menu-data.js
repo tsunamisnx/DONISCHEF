@@ -1,0 +1,63 @@
+/* Цены переписаны из меню заведения на Ленина, 30.
+   Основной источник: https://t.me/donishef_ufa/847 (10.09.2026).
+   Оссобуко: https://t.me/donishef_ufa/891 (28.10.2026).
+   Не добавляйте состав, вес и фотографии к позиции без её источника. */
+window.DONI_MENU = {
+  published: '2026-09-10',
+  source: 'https://t.me/donishef_ufa/847',
+  categories: [
+    { id: 'signature', label: 'Фирменные блюда', image: 'assets/images/plov-detail.webp', alt: 'Самаркандский плов в ДониШеф' },
+    { id: 'grill', label: 'Ассорти шашлыков', image: 'assets/images/shashlik.webp', alt: 'Шашлык в чайхане ДониШеф' },
+    { id: 'soups', label: 'Первые блюда', image: 'assets/images/kazan.webp', alt: 'Казан с пловом на кухне ДониШеф' },
+    { id: 'mains', label: 'Вторые блюда', image: 'assets/images/chakhokhbili.webp', alt: 'Чахохбили с картофельным пюре в ДониШеф' },
+    { id: 'sides', label: 'Гарниры', image: 'assets/images/hall.webp', alt: 'Зал чайханы ДониШеф' }
+  ],
+  items: [
+    { name: 'Плов от «Дони»', price: 600, category: 'signature', page: 5 },
+    { name: 'Баранья ножка', price: 700, category: 'signature', page: 5 },
+    { name: 'Курутоб', price: 600, category: 'signature', page: 5 },
+    { name: 'Форель с фри', price: 800, category: 'signature', page: 5 },
+    { name: 'Жареный лагман', price: 600, category: 'signature', page: 5 },
+    { name: 'Кёфта с фри', price: 700, category: 'signature', page: 5 },
+    { name: 'Цезарь с курицей', price: 450, category: 'signature', page: 5 },
+    { name: 'Салат с баклажанами', price: 550, category: 'signature', page: 5 },
+    { name: 'Бешбармак', price: 800, category: 'signature', page: 5 },
+    { name: 'Оссобуко', price: 700, category: 'signature', source: 'https://t.me/donishef_ufa/891', published: '2026-10-28' },
+    { name: 'Корейка', detail: 'Баранина', price: 550, category: 'grill', page: 2 },
+    { name: 'Вырезка', detail: 'Говядина', price: 550, category: 'grill', page: 2 },
+    { name: 'Мякоть', detail: 'Баранина', price: 550, category: 'grill', page: 2 },
+    { name: 'Люля-кебаб', detail: 'Говядина', price: 450, category: 'grill', page: 2 },
+    { name: 'Форель на гриле', price: 800, category: 'grill', page: 2 },
+    { name: 'Стейк', detail: 'Говядина', price: 800, category: 'grill', page: 2 },
+    { name: 'Наполеон', detail: 'Микс', price: 500, category: 'grill', page: 2 },
+    { name: 'Рулет', detail: 'Микс', price: 500, category: 'grill', page: 2 },
+    { name: 'Люля-кебаб', detail: 'Курица', price: 400, category: 'grill', page: 2 },
+    { name: 'Семечки', detail: 'Баранина', price: 450, category: 'grill', page: 2 },
+    { name: 'Бикини', detail: 'Баранина', price: 500, category: 'grill', page: 2 },
+    { name: 'Крыло куриное', price: 400, category: 'grill', page: 2 },
+    { name: 'Филе куриное', price: 400, category: 'grill', page: 2 },
+    { name: 'Костный мозг', price: 500, category: 'grill', page: 2 },
+    { name: 'Картофель', price: 250, category: 'grill', page: 2 },
+    { name: 'Грибы на гриле', price: 300, category: 'grill', page: 2 },
+    { name: 'Овощи на гриле', price: 300, category: 'grill', page: 2 },
+    { name: 'Печень говяжья', price: 400, category: 'grill', page: 2 },
+    { name: 'Сердца говяжьи', price: 400, category: 'grill', page: 2 },
+    { name: 'Шурпа', detail: 'Говядина', price: 500, category: 'soups', page: 3 },
+    { name: 'Лагман', price: 500, category: 'soups', page: 3 },
+    { name: 'Мастава', price: 500, category: 'soups', page: 3 },
+    { name: 'Пельмени', price: 500, category: 'soups', page: 3 },
+    { name: 'Чечевичный суп', price: 300, category: 'soups', page: 3 },
+    { name: 'Бульон', price: 100, category: 'soups', page: 3 },
+    { name: 'Плов + салат', price: 500, category: 'mains', page: 4 },
+    { name: 'Казан-кебаб', detail: 'Говядина', price: 600, category: 'mains', page: 4 },
+    { name: 'Казан-кебаб', detail: 'Баранина', price: 650, category: 'mains', page: 4 },
+    { name: 'Манты', price: 550, category: 'mains', page: 4 },
+    { name: 'Чахохбили с пюре', price: 550, category: 'mains', page: 4 },
+    { name: 'Котлеты с пюре', price: 550, category: 'mains', page: 4 },
+    { name: 'Фри', price: 150, category: 'sides', page: 6 },
+    { name: 'Пюре', price: 150, category: 'sides', page: 6 },
+    { name: 'Рис', price: 120, category: 'sides', page: 6 },
+    { name: 'Наггетсы', price: 150, category: 'sides', page: 6 },
+    { name: 'Чай от «ДониШеф»', price: 200, category: 'sides', page: 6 }
+  ]
+};

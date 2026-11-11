@@ -1,0 +1,88 @@
+[
+  {
+    "file": "assets/images/plov.webp",
+    "source": "https://t.me/donishef_ufa/843",
+    "frame_seconds": 0,
+    "crop": null,
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/plov-detail.webp",
+    "source": "https://t.me/donishef_ufa/843",
+    "frame_seconds": 2,
+    "crop": [
+      0,
+      180,
+      720,
+      1180
+    ],
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/interior.webp",
+    "source": "https://t.me/donishef_ufa/874",
+    "frame_seconds": 0,
+    "crop": [
+      0,
+      0,
+      720,
+      880
+    ],
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/hall.webp",
+    "source": "https://t.me/donishef_ufa/837",
+    "frame_seconds": 0,
+    "crop": [
+      0,
+      0,
+      720,
+      950
+    ],
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/kazan.webp",
+    "source": "https://t.me/donishef_ufa/826",
+    "frame_seconds": 2,
+    "crop": [
+      0,
+      250,
+      720,
+      1150
+    ],
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/shashlik.webp",
+    "source": "https://t.me/donishef_ufa/885",
+    "frame_seconds": 2,
+    "crop": [
+      0,
+      0,
+      720,
+      820
+    ],
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/logo.webp",
+    "source": "https://t.me/donishef_ufa/847",
+    "crop": [
+      170,
+      55,
+      280,
+      170
+    ],
+    "page": 1,
+    "checked": "2026-11-11"
+  },
+  {
+    "file": "assets/images/chakhokhbili.webp",
+    "source": "https://t.me/donishef_ufa/672",
+    "frame_seconds": 6,
+    "crop": null,
+    "checked": "2026-11-11"
+  }
+]
